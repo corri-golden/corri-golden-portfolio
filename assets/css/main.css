@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 /*
 	Massively by HTML5 UP
@@ -148,7 +148,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Merriweather", Georgia, serif;
+		font-family: "Open Sans Bold", Georgia, serif;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 2.375;
@@ -188,12 +188,14 @@ input, select, textarea {
 		text-transform: uppercase;
 		text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 		margin: 0 0 1rem 0;
+		
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			border-bottom: 0;
 			color: inherit;
 			text-decoration: none;
+			margin-top: 5px;
 		}
 
 	h1 {
@@ -2079,7 +2081,7 @@ input, select, textarea {
 		border-radius: 0;
 		cursor: pointer;
 		display: inline-block;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Open Sans Bold", Helvetica, sans-serif;
 		font-size: 0.8rem;
 		font-weight: 900;
 		letter-spacing: 0.075em;
@@ -2219,6 +2221,8 @@ input, select, textarea {
 			box-shadow: inset 0 0 0 2px #18bfef;
 			color: #18bfef !important;
 		}
+	
+	
 
 		input[type="submit"].primary,
 		input[type="reset"].primary,
@@ -2408,7 +2412,7 @@ input, select, textarea {
 			display: inline-block;
 			font-size: 1rem;
 			letter-spacing: 0;
-			font-family: "Merriweather", Georgia, serif;
+			font-family: "Open Sans Bold", Georgia, serif;
 			text-transform: none;
 			font-weight: 300;
 			padding-left: 2.8rem;
@@ -4699,3 +4703,8 @@ input, select, textarea {
 	.GIT {
 		text-align: center;
 	}
+
+.aboutm {
+	font-family: "open sans";
+}
+	
